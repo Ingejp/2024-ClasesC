@@ -49,48 +49,7 @@ int main() {
             cout << "Desea ingresar otro numero? (S/N) : ";
             cin>>continuar;
         } while (continuar!='s' && continuar!='S' && continuar!='n' && continuar!='N');
-        cout << "Fin del programa";
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    cout << "Fin del programa";
     return 0;
 }
