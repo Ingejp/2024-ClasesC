@@ -25,12 +25,63 @@ int main() {
         opcionSeleccionada=opcionSeleccionada+1;
     }*/
     //CONSTANTES
-            const double IVA=0.12;
+           /* const double IVA=0.12;
             const double PROPINA=0.10;
             int montoGastado=0;
             cout << "Ingrese el monto de consumo"<<endl;
             cin>>montoGastado;
             cout << "El monto a cobrar es" << montoGastado + montoGastado*(IVA+PROPINA);
+*/
+           //ANIDANDO ESTRUCTURAS DE CONTROL
+           char continuar='s';
+    while (continuar=='s'|| continuar=='S'){
+        int numero;
+        cout << "Ingrese un numero ";
+        cin >> numero;
+        if(numero>0){
+            cout << "El numero es positivo"<<endl;
+        }else if(numero<0){
+            cout << "El numero es negativo " << endl;
+        }else{
+            cout << "El numero es cero" << endl;
+        }
+        do{
+            cout << "Desea ingresar otro numero? (S/N) : ";
+            cin>>continuar;
+        } while (continuar!='s' && continuar!='S' && continuar!='n' && continuar!='N');
+        cout << "Fin del programa";
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
